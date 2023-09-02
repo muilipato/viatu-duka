@@ -1,0 +1,33 @@
+.header-container{
+    display: flex;
+    background-color: #333;
+    align-items: center;
+
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px 20px;
+}
+.header-container h1{
+    font-size: 24px;
+
+}
+.menu-nav{
+ display: flex;
+ list-style-type: none;
+ gap: 20px;
+
+
+}
+.menu-nav li{
+    position: relative;
+}
+.header-icons{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    color: #fff;
+    text-decoration: none;
+
+
+}
