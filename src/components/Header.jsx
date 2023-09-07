@@ -1,4 +1,8 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+
+
 import './styles/Header.css'
 export default function Header(){
     return(
@@ -17,7 +21,7 @@ export default function Header(){
             <div className="header-icons">
                 <a href="#" className="icon">Search</a>
                 <a href="#" className="icon">Login</a>
-                <a href="#" className="icon">Cart</a>
+                <a href="#" className="icon"><FontAwesomeIcon icon={faShoppingCart} className="icon" /></a>
 
             </div>
 
