@@ -1,0 +1,42 @@
+.slider{
+    background-color: black;
+    display: flex;
+    margin-top: 5px;
+    height: 500px;
+
+
+
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider img{
+   max-width:90%;
+   max-height:90%;
+
+
+
+   border-radius: 2px;
+
+
+}
+.intro{
+    font-size: 30px;
+
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   flex-direction:column;
+}
+.intro h1{
+    color: aliceblue;
+
+
+}
+.intro p{
+    color:aliceblue;
+}
+
+
