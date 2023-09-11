@@ -1,5 +1,5 @@
 .slider{
-    background-color: black;
+    background-color: rgb(26, 25, 25);
     display: flex;
     margin-top: 5px;
     height: 500px;
@@ -38,5 +38,11 @@
 .intro p{
     color:aliceblue;
 }
-
+.intro-button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color:black;
+    background-color:silver;
+}
 

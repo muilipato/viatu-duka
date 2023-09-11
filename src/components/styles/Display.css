@@ -1,0 +1,20 @@
+.display-container{
+    height:800px;
+    background: linear-gradient(
+        345deg,
+        #333 20%,
+        #fff 20% 80%,
+        #333 80%
+      );
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+.shoes-container{
+    border: #2222 solid 0.5px;
+
+}
+.h1-categories{
+    align-items:flex-start;
+}

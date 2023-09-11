@@ -4,6 +4,10 @@ import './styles/BelowHeader.css'
 
 
 export default function BelowHeader(){
+
+  function handleClick(){
+
+  }
     return (
         <div className='slider'>
           <div className='img-container'>
