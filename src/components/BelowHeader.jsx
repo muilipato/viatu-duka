@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../assets/fashion-shoes-sneakers.jpg'
 import './styles/BelowHeader.css'
+import {Router, Link} from "react";
 
 
 export default function BelowHeader(){
