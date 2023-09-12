@@ -56,10 +56,12 @@ export default function Display(){
                 <p>Pick a category you need</p>
             </div>
             <div className="shoes-container">
-
-             {shoeData.map((shoe, index)=>
+                <div className="items-container">
+                {shoeData.map((shoe, index)=>
              <ShoeItem key={index} shoeData={shoe}/>
              )}
+
+                </div>
 
             </div>
 
