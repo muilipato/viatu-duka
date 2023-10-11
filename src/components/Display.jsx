@@ -75,7 +75,7 @@ export default function Display(){
                 {shoeData.map((shoe, index)=>
                  <ShoeItem key={index} shoeData={shoe}/>
                  )}
-
+                 
                 </div>
 
             </div>
