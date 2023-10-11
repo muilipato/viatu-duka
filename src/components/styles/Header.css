@@ -30,3 +30,27 @@
 
 
 }
+
+@media (max-width: 478px){
+    .header-container{
+        flex-wrap: wrap;
+
+
+    }
+    .header-container h1{
+        width: 100%;
+
+    }
+    .menu-nav{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .header-icons{
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    .icon{
+        width: 100%;
+    }
+}

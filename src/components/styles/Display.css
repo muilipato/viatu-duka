@@ -71,3 +71,20 @@
 
   }
 
+  @media (max-width: 478px){
+    .display-container{
+       flex-wrap: wrap;
+    }
+
+    .items-container{
+      flex-wrap: wrap;
+      width: auto;
+    }
+    .shoe-item {
+      width: auto;
+    }
+
+
+  }
+
+
