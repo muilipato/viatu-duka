@@ -7,8 +7,10 @@
     align-items: center;
     justify-content: flex-start;
 
-     /* Change to row to place title on the left */
+    position: relative; /* Change to row to place title on the left */
     /* Add padding for spacing */
+
+    overflow-y: auto;
 
   }
 
@@ -33,6 +35,10 @@
     display: flex;
     flex-direction: row;
     flex:3;
+    position:absolute;
+    width: 80%;
+    top: 150px;
+    left: 200px;
 
    /* Allow shoe items to take up available space on the right */
   }
