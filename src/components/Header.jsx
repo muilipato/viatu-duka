@@ -24,8 +24,13 @@ export default function Header(){
                 <a href="#" className="icon"><FontAwesomeIcon icon={faShoppingCart} className="icon" /></a>
 
             </div>
-
+                    
 
         </div>
     )
 }
+
+
+
+
+

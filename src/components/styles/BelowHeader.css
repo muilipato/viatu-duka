@@ -1,0 +1,48 @@
+.slider{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    margin-top: 5px;
+    height: 500px;
+
+
+
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider img{
+   max-width:90%;
+   max-height:90%;
+
+
+
+   border-radius: 2px;
+
+
+}
+.intro{
+    font-size: 30px;
+
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   flex-direction:column;
+}
+.intro h1{
+    color: aliceblue;
+
+
+}
+.intro p{
+    color:aliceblue;
+}
+.intro-button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color:black;
+    background-color:silver;
+}
+

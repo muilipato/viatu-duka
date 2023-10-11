@@ -1,0 +1,90 @@
+/* Updated CSS */
+
+.display-container {
+    height: 800px;
+    background: linear-gradient(345deg, #333 20%, #fff 20% 80%, #333 80%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: relative; /* Change to row to place title on the left */
+    /* Add padding for spacing */
+
+    overflow-y: auto;
+
+  }
+
+  .display-title {
+     /* Allow the title to take up available space on the left */
+    align-self: flex-start; /* Align the title to the top of its container */
+   /* Add margin to separate title from shoe items */
+    position: absolute;
+
+  }
+
+  .display-title h1 {
+    color: red;
+  }
+  .display-title p{
+    color: #fff;
+
+  }
+
+  .shoes-container {
+    border: #cf1b1b22 solid 0.5px;
+    display: flex;
+    flex-direction: row;
+    flex:3;
+    position:absolute;
+    width: 80%;
+    top: 150px;
+    left: 200px;
+
+   /* Allow shoe items to take up available space on the right */
+  }
+
+  .items-container{
+    border: #cf1b1b22 solid 0.5px;
+    display: flex;
+    flex-wrap: wrap; /* Allow shoe items to wrap to the next row */
+    gap: 10px;
+    flex:3;
+    flex-direction: row;
+
+
+  }
+  /* To make shoe items display as a grid using flexbox */
+  .shoe-item {
+    flex: 0 0 calc(20% - 50px); /* Adjust the width of each item as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Add margin to separate items */
+  }
+
+  .shoe-item img{
+   max-width: 100%;
+    border-radius:15px;
+
+
+  }
+
+  @media (max-width: 478px){
+    .display-container{
+       flex-wrap: wrap;
+    }
+
+    .items-container{
+      flex-wrap: wrap;
+      width: auto;
+    }
+    .shoe-item {
+      width: auto;
+    }
+
+
+  }
+
+
