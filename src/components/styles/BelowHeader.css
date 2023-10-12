@@ -15,16 +15,11 @@
 .slider img{
    max-width:90%;
    max-height:90%;
-
-
-
    border-radius: 2px;
-
 
 }
 .intro{
     font-size: 30px;
-
    display: flex;
    align-items:center;
    justify-content: center;
@@ -45,4 +40,24 @@
     color:black;
     background-color:silver;
 }
+
+@media (max-width:480px){
+    .slider{
+        flex-wrap: wrap;
+        height: auto;
+
+    }
+    .img-container{width: 100%;}
+    .img-container img{
+        width: 100%;
+    }
+    .intro{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+}
+
+
+
 
